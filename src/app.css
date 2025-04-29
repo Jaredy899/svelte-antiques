@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-logo-50: 250 245 235;
+    --color-logo-100: 244 233 213;
+    --color-logo-200: 238 221 191;
+    --color-logo-300: 232 209 169;
+    --color-logo-400: 226 197 147;
+    --color-logo-500: 220 185 125;
+    --color-logo-600: 214 173 103;
+    --color-logo-700: 208 161 81;
+    --color-logo-800: 202 149 59;
+    --color-logo-900: 196 137 37;
+  }
+}
+
+@layer components {
+  .shadow-logo {
+    box-shadow: 0 4px 6px -1px rgb(var(--color-logo-200) / 0.1), 0 2px 4px -2px rgb(var(--color-logo-200) / 0.1);
+  }
+}
+
+@layer utilities {
+  .text-logo-50 { color: rgb(var(--color-logo-50)); }
+  .text-logo-100 { color: rgb(var(--color-logo-100)); }
+  .text-logo-200 { color: rgb(var(--color-logo-200)); }
+  .text-logo-300 { color: rgb(var(--color-logo-300)); }
+  .text-logo-400 { color: rgb(var(--color-logo-400)); }
+  .text-logo-500 { color: rgb(var(--color-logo-500)); }
+  .text-logo-600 { color: rgb(var(--color-logo-600)); }
+  .text-logo-700 { color: rgb(var(--color-logo-700)); }
+  .text-logo-800 { color: rgb(var(--color-logo-800)); }
+  .text-logo-900 { color: rgb(var(--color-logo-900)); }
+
+  .bg-logo-50 { background-color: rgb(var(--color-logo-50)); }
+  .bg-logo-100 { background-color: rgb(var(--color-logo-100)); }
+  .bg-logo-200 { background-color: rgb(var(--color-logo-200)); }
+  .bg-logo-300 { background-color: rgb(var(--color-logo-300)); }
+  .bg-logo-400 { background-color: rgb(var(--color-logo-400)); }
+  .bg-logo-500 { background-color: rgb(var(--color-logo-500)); }
+  .bg-logo-600 { background-color: rgb(var(--color-logo-600)); }
+  .bg-logo-700 { background-color: rgb(var(--color-logo-700)); }
+  .bg-logo-800 { background-color: rgb(var(--color-logo-800)); }
+  .bg-logo-900 { background-color: rgb(var(--color-logo-900)); }
+
+  .border-logo-200 { border-color: rgb(var(--color-logo-200)); }
+  .border-logo-300 { border-color: rgb(var(--color-logo-300)); }
+  .border-logo-400 { border-color: rgb(var(--color-logo-400)); }
+  .border-logo-500 { border-color: rgb(var(--color-logo-500)); }
+  .border-logo-600 { border-color: rgb(var(--color-logo-600)); }
+  .border-logo-700 { border-color: rgb(var(--color-logo-700)); }
+  .border-logo-800 { border-color: rgb(var(--color-logo-800)); }
+  .border-logo-900 { border-color: rgb(var(--color-logo-900)); }
+}
