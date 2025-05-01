@@ -19,9 +19,9 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Crimson Text', 'Georgia', 'serif'],
-        serif: ['Playfair Display', 'serif'],
-        display: ['Cinzel', 'serif'],
+        sans: ['Montserrat', 'sans-serif'],
+        serif: ['Montserrat', 'sans-serif'],
+        display: ['Montserrat', 'sans-serif'],
       },
     },
   },

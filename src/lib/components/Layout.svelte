@@ -15,13 +15,14 @@
   :global(html) {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat', sans-serif;
   }
   
   :global(body) {
     background-color: white;
     color: black;
     transition: background-color 0.2s, color 0.2s;
-    font-size: 1.125rem; /* 18px */
+    font-size: 0.875rem; /* 14px */
   }
 
   :global(body.dark) {
@@ -30,6 +31,6 @@
   }
 
   :global(h1, h2, h3, h4, h5, h6) {
-    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
   }
 </style> 

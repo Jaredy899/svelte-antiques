@@ -70,10 +70,10 @@
             </div>
             <div>
               <h3 class="font-medium text-gray-900 dark:text-white">Email:</h3>
-              <div class="text-gray-600 dark:text-gray-300">
+              <div class="text-gray-600 dark:text-gray-300 overflow-x-auto">
                 <a 
                   href="mailto:abingdonantiquesandmore@gmail.com" 
-                  class="hover:text-gray-600 dark:hover:text-primary transition-colors"
+                  class="hover:text-gray-600 dark:hover:text-primary transition-colors whitespace-nowrap inline-block text-sm"
                 >
                   abingdonantiquesandmore@gmail.com
                 </a>
