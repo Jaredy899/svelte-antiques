@@ -71,9 +71,8 @@
 </section>
 
 {#if lightboxOpen && selectedImage}
-  <div 
-    role="dialog"
-    tabindex="0"
+  <button 
+    type="button"
     class="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
     on:click={closeLightbox}
     on:keydown={e => e.key === 'Escape' && closeLightbox()}
@@ -88,20 +87,13 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
-      <div 
-        role="button" 
-        tabindex="0" 
-        on:click|stopPropagation={() => {}}
-        on:keydown={e => e.key === 'Enter' && e.stopPropagation()}
-      >
-        <img
-          src={selectedImage}
-          alt="Selected item"
-          class="max-w-full max-h-[90vh] object-contain transition-transform duration-300"
-        />
-      </div>
+      <img
+        src={selectedImage}
+        alt="Selected item"
+        class="max-w-full max-h-[90vh] object-contain transition-transform duration-300"
+      />
     </div>
-  </div>
+  </button>
 {/if}
 
 <style>
