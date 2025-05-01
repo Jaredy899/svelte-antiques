@@ -71,15 +71,23 @@
 </section>
 
 {#if lightboxOpen && selectedImage}
-  <button 
-    type="button"
+  <div 
     role="dialog"
     tabindex="0"
-    class="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4 cursor-pointer"
+    class="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
     on:click={closeLightbox}
     on:keydown={e => e.key === 'Escape' && closeLightbox()}
   >
     <div class="relative w-full h-full flex items-center justify-center">
+      <button 
+        type="button"
+        class="absolute top-4 right-4 text-white hover:text-gray-300"
+        on:click|stopPropagation={closeLightbox}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
       <div 
         role="button" 
         tabindex="0" 
@@ -93,7 +101,7 @@
         />
       </div>
     </div>
-  </button>
+  </div>
 {/if}
 
 <style>
