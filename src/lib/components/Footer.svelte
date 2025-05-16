@@ -12,11 +12,11 @@
         <h3 class="mb-3 text-lg font-serif font-semibold text-black dark:text-white">Contact Us</h3>
         <div class="mb-2">
           <p class="mb-1"><span class="font-medium">Phone:</span></p>
-          <p><a href="tel:+12764771515" class="hover:text-gray-600 dark:hover:text-primary transition-colors">276-477-1515</a></p>
+          <p><a href="tel:+12764771515" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">276-477-1515</a></p>
         </div>
         <div class="mb-2">
           <p class="mb-1"><span class="font-medium">Email:</span></p>
-          <p><a href="mailto:abingdonantiquesandmore@gmail.com" class="hover:text-gray-600 dark:hover:text-primary transition-colors">abingdonantiquesandmore@gmail.com</a></p>
+          <p><a href="mailto:abingdonantiquesandmore@gmail.com" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">abingdonantiquesandmore@gmail.com</a></p>
         </div>
         <div class="mb-4">
           <p class="mb-1"><span class="font-medium">Address:</span></p>
@@ -31,12 +31,12 @@
         <div class="mt-4">
           <p class="mb-2"><span class="font-medium">Follow Us:</span></p>
           <div class="flex justify-center lg:justify-start space-x-4">
-            <div class="text-black dark:text-gray-400">
+            <div class="text-blue-600">
               <a 
                 href="https://www.facebook.com/profile.php?id=61551934216826" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="hover:text-gray-600 dark:hover:text-primary transition-colors"
+                class="hover:text-blue-800 transition-colors"
                 aria-label="Facebook"
               >
                 <svg
@@ -50,12 +50,12 @@
                 </svg>
               </a>
             </div>
-            <div class="text-black dark:text-gray-400">
+            <div class="text-blue-600">
               <a 
                 href="https://www.instagram.com/abingdonantiques" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="hover:text-gray-600 dark:hover:text-primary transition-colors"
+                class="hover:text-blue-800 transition-colors"
                 aria-label="Instagram"
               >
                 <svg
@@ -69,12 +69,12 @@
                 </svg>
               </a>
             </div>
-            <div class="text-black dark:text-gray-400">
+            <div class="text-blue-600">
               <a 
                 href="http://www.youtube.com/@AbingdonAntiques" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="hover:text-gray-600 dark:hover:text-primary transition-colors"
+                class="hover:text-blue-800 transition-colors"
                 aria-label="YouTube"
               >
                 <svg
@@ -88,12 +88,12 @@
                 </svg>
               </a>
             </div>
-            <div class="text-black dark:text-gray-400">
+            <div class="text-blue-600">
               <a 
                 href="https://www.tiktok.com/@abingdonantiques" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="hover:text-gray-600 dark:hover:text-primary transition-colors"
+                class="hover:text-blue-800 transition-colors"
                 aria-label="TikTok"
               >
                 <svg
@@ -115,10 +115,10 @@
       <div class="text-center lg:text-left">
         <h3 class="mb-3 text-lg font-serif font-semibold text-black dark:text-white">Quick Links</h3>
         <div class="space-y-2">
-          <a href="/" class="block hover:text-gray-600 dark:hover:text-primary transition-colors">
+          <a href="/" class="block text-blue-600 hover:text-blue-800 hover:underline transition-colors">
             Home
           </a>
-          <a href="/information" class="block hover:text-gray-600 dark:hover:text-primary transition-colors">
+          <a href="/information" class="block text-blue-600 hover:text-blue-800 hover:underline transition-colors">
             Information
           </a>
         </div>
@@ -127,9 +127,8 @@
       <!-- Hours -->
       <div class="text-center lg:text-left">
         <h3 class="mb-3 text-lg font-serif font-semibold text-black dark:text-white">Hours</h3>
-        <p class="mb-2">Tuesday - Saturday: 10:00 AM - 6:00 PM</p>
-        <p class="mb-2">Sunday & Monday: Typically Closed</p>
-        <p class="text-sm mb-2">* May be open on special occasions or during peak seasons</p>
+        <p class="mb-2">Monday - Saturday: 10:00 AM - 6:00 PM</p>
+        <p class="mb-2">Sunday: 1:00 PM - 4:00 PM</p>
       </div>
     </div>
 

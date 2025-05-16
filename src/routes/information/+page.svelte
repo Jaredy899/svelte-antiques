@@ -18,26 +18,25 @@
           <h2 class="text-2xl font-serif font-bold mb-6 text-gray-900 dark:text-white">Store Hours</h2>
           <div class="space-y-4">
             <div>
-              <p class="font-medium text-gray-900 dark:text-white">Tuesday - Saturday</p>
+              <p class="font-medium text-gray-900 dark:text-white">Monday - Saturday</p>
               <p class="text-gray-600 dark:text-gray-300">10:00 AM - 6:00 PM</p>
             </div>
             <div>
-              <p class="font-medium text-gray-900 dark:text-white">Sunday & Monday</p>
-              <p class="text-gray-600 dark:text-gray-300">Typically Closed</p>
+              <p class="font-medium text-gray-900 dark:text-white">Sunday</p>
+              <p class="text-gray-600 dark:text-gray-300">1:00 PM - 4:00 PM</p>
             </div>
-            <p class="text-gray-600 dark:text-gray-300 text-sm">* May be open on special occasions or during peak seasons</p>
           </div>
           
           <h3 class="text-xl font-serif font-bold mt-8 mb-4 text-gray-900 dark:text-white">Holiday Schedule</h3>
           <div class="space-y-4">
             <p class="text-gray-600 dark:text-gray-300">We are closed on the following holidays:</p>
             <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-gray-300">
-              <li>New Year's Day</li>
-              <li>Easter Sunday</li>
-              <li>Independence Day</li>
-              <li>Thanksgiving Day</li>
-              <li>Christmas Eve</li>
-              <li>Christmas Day</li>
+              <li>🎆 New Year's Day</li>
+              <li>🐰 Easter Sunday</li>
+              <li>🎇 Independence Day</li>
+              <li>🦃 Thanksgiving Day</li>
+              <li>🎄 Christmas Eve</li>
+              <li>🎅 Christmas Day</li>
             </ul>
             <p class="text-gray-600 dark:text-gray-300 italic">We may have reduced hours on days adjacent to holidays. Please call ahead to confirm.</p>
           </div>
@@ -62,7 +61,7 @@
               <div class="text-gray-600 dark:text-gray-300">
                 <a 
                   href="tel:276-477-1515" 
-                  class="hover:text-gray-600 dark:hover:text-primary transition-colors"
+                  class="text-blue-600 hover:text-blue-800 hover:underline transition-colors"
                 >
                   276-477-1515
                 </a>
@@ -73,7 +72,7 @@
               <div class="text-gray-600 dark:text-gray-300 overflow-x-auto">
                 <a 
                   href="mailto:abingdonantiquesandmore@gmail.com" 
-                  class="hover:text-gray-600 dark:hover:text-primary transition-colors whitespace-nowrap inline-block text-sm"
+                  class="text-blue-600 hover:text-blue-800 hover:underline transition-colors whitespace-nowrap inline-block text-lg"
                 >
                   abingdonantiquesandmore@gmail.com
                 </a>
@@ -81,7 +80,7 @@
             </div>
             <div class="mt-6">
               <h3 class="font-medium text-gray-900 dark:text-white mb-2">Directions:</h3>
-              <p class="text-gray-600 dark:text-gray-300">We are located in the heart of historic Abingdon, Virginia, on West Main Street, across the street from <a href="https://abingdoncommons.com/" target="_blank" rel="noopener noreferrer" class="text-gray-600 dark:text-gray-300 hover:text-gray-600 dark:hover:text-primary transition-colors">Abingdon Commons</a>.</p>
+              <p class="text-gray-600 dark:text-gray-300">We are located in the heart of historic Abingdon, Virginia, on West Main Street, across the street from <a href="https://abingdoncommons.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">Abingdon Commons</a>.</p>
             </div>
             <div class="mt-6">
               <h3 class="font-medium text-gray-900 dark:text-white mb-2">Parking:</h3>
@@ -113,40 +112,27 @@
       <!-- FAQ Section -->
       <div class="mt-12 max-w-6xl mx-auto">
         <section class="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg shadow-md transition-colors duration-200">
-          <h2 class="text-2xl font-serif font-bold mb-8 text-gray-900 dark:text-white border-b border-gray-200 dark:border-gray-700 pb-4">Frequently Asked Questions</h2>
+          <h2 class="text-2xl font-serif font-bold mb-6 text-gray-900 dark:text-white">Frequently Asked Questions</h2>
           
-          <div class="space-y-8">
-            <div class="p-4 rounded-lg bg-white dark:bg-gray-900/50">
-              <h3 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">What types of items do you sell?</h3>
-              <p class="text-gray-600 dark:text-gray-300">
-                We offer a wide variety of antiques and collectibles, including furniture, jewelry, glassware, 
-                pottery, and more. Our inventory is constantly changing as we receive new items.
-              </p>
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">What types of items do you sell?</h3>
+              <p class="text-gray-600 dark:text-gray-300">We offer antiques and collectibles including furniture, jewelry, glassware, pottery, and more with constantly changing inventory.</p>
             </div>
             
-            <div class="p-4 rounded-lg bg-white dark:bg-gray-900/50">
-              <h3 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">Do you buy antiques?</h3>
-              <p class="text-gray-600 dark:text-gray-300">
-                We may be interested in purchasing quality antiques and collectibles that fit our inventory. 
-                Please contact us to discuss what you have available.
-              </p>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Do you buy antiques?</h3>
+              <p class="text-gray-600 dark:text-gray-300">We may purchase quality items that fit our inventory. <a href="mailto:abingdonantiquesandmore@gmail.com" class="text-blue-600 dark:text-blue-400 hover:underline">Contact us</a> to discuss.</p>
             </div>
             
-            <div class="p-4 rounded-lg bg-white dark:bg-gray-900/50">
-              <h3 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">Do you offer appraisals?</h3>
-              <p class="text-gray-600 dark:text-gray-300">
-                Yes, we offer professional appraisals on select items. Our experienced vendors can provide 
-                detailed assessments of antiques and collectibles in their areas of expertise. Please contact 
-                us directly to discuss your specific items and arrange an appointment.
-              </p>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Do you offer appraisals?</h3>
+              <p class="text-gray-600 dark:text-gray-300">Yes, our experienced vendors provide appraisals on select items. <a href="tel:276-477-1515" class="text-blue-600 dark:text-blue-400 hover:underline">Call us</a> to arrange an appointment.</p>
             </div>
             
-            <div class="p-4 rounded-lg bg-white dark:bg-gray-900/50">
-              <h3 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">How can I become a vendor?</h3>
-              <p class="text-gray-600 dark:text-gray-300">
-                We welcome new vendors who specialize in quality antiques and collectibles. Please contact us directly 
-                to discuss available spaces and requirements.
-              </p>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">How can I become a vendor?</h3>
+              <p class="text-gray-600 dark:text-gray-300">We welcome vendors specializing in quality antiques. <a href="mailto:abingdonantiquesandmore@gmail.com" class="text-blue-600 dark:text-blue-400 hover:underline">Email us</a> to discuss spaces and requirements.</p>
             </div>
           </div>
         </section>

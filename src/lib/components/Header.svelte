@@ -1,14 +1,26 @@
 <script>
   import LogoHeader from "./LogoHeader.svelte";
   import ThemeToggle from "./ThemeToggle.svelte";
-  import { page } from '$app/stores';
+  import { page } from '$app/state';
+  import { onNavigate } from '$app/navigation';
 
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'Information', href: '/information' },
   ];
 
-  $: isInformationPage = $page.url.pathname === '/information';
+  $: isInformationPage = page.url.pathname === '/information';
+
+  onNavigate((navigation) => {
+    if (!document.startViewTransition) return;
+
+    return new Promise((resolve) => {
+      document.startViewTransition(async () => {
+        resolve();
+        await navigation.complete;
+      });
+    });
+  });
 </script>
 
 <header class="w-full bg-white dark:bg-gray-900 shadow-md dark:shadow-gray-800 transition-colors duration-200">
@@ -32,7 +44,7 @@
             <div class="text-black dark:text-gray-300">
               <a
                 href={item.href}
-                class="hover:text-gray-600 dark:hover:text-primary transition-colors"
+                class="transition-colors {page.url.pathname === item.href ? 'text-white font-bold' : 'text-blue-600 hover:text-blue-800 hover:underline'}"
               >
                 {item.label}
               </a>
@@ -42,4 +54,12 @@
       </ul>
     </nav>
   </div>
-</header> 
+</header>
+
+<style>
+  ::view-transition-old(logo),
+  ::view-transition-new(logo) {
+    animation: none;
+    mix-blend-mode: normal;
+  }
+</style> 

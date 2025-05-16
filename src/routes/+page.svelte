@@ -15,7 +15,7 @@
     "https://xfcpn2nyfb.ufs.sh/f/LKapUqCN3UFssWQENxRiwGqRQXjaOTYzH816lIkchyoC9txN",
     "https://xfcpn2nyfb.ufs.sh/f/LKapUqCN3UFsED72c492bga4hAVdszcfGZt3vDSkFJe8rKwR",
     "https://xfcpn2nyfb.ufs.sh/f/LKapUqCN3UFsd1SLKG2VFBmf9HhQVLJpzkqGNjtM6ZlxcgPW",
-    "https://xfcpn2nyfb.ufs.sh/f/LKapUqCN3UFs9bWwcqG8Hgw3jA5IqYdvuJ9CRS7lKfZzEa1L",
+    
   ];
 </script>
 
@@ -43,7 +43,7 @@
     <!-- Social Media Section -->
     <section class="py-16 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div class="container mx-auto px-4">
-        <div class="max-w-3xl mx-auto">
+        <div class="max-w-6xl mx-auto">
           <div class="border-2 border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-lg bg-white dark:bg-gray-800">
             <div class="text-center">
               <h2 class="text-3xl font-serif font-bold mb-6 text-gray-900 dark:text-white">Stay Connected!</h2>
@@ -92,8 +92,8 @@
                 </h2>
                 <p class="mb-6 text-lg text-gray-600 dark:text-gray-300">
                   <span class="font-semibold">We are now exclusively located at:</span><br />
-                  <AddressLink address="227 W Main St, Abingdon, VA 24210">
-                    <span class="text-gray-600 dark:text-gray-300">227 W Main St, Abingdon, VA 24210</span>
+                  <AddressLink address="227 West Main Street, Abingdon, VA 24210">
+                    227 West Main Street, Abingdon, VA 24210
                   </AddressLink>
                 </p>
                 <p class="text-gray-600 dark:text-gray-300">
@@ -146,7 +146,7 @@
         <ImageGallery 
           images={galleryImages}
           title="Featured Items"
-          columns={3}
+          columns={2}
           aspectRatio="square"
         />
       </div>
