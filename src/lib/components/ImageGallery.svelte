@@ -35,7 +35,39 @@
     loadedImages[image] = true;
     loadedImages = loadedImages; // trigger reactivity
   }
+
+  function navigateImage(direction: 'prev' | 'next') {
+    if (!selectedImage) return;
+    const currentIndex = images.indexOf(selectedImage);
+    let newIndex: number;
+
+    if (direction === 'prev') {
+      newIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+    } else {
+      newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
+    }
+
+    selectedImage = images[newIndex];
+  }
+
+  function handleKeydown(event: KeyboardEvent) {
+    if (!lightboxOpen) return;
+    
+    switch (event.key) {
+      case 'Escape':
+        closeLightbox();
+        break;
+      case 'ArrowLeft':
+        navigateImage('prev');
+        break;
+      case 'ArrowRight':
+        navigateImage('next');
+        break;
+    }
+  }
 </script>
+
+<svelte:window on:keydown={handleKeydown} />
 
 <section class="py-8">
   {#if title}
@@ -75,7 +107,6 @@
     type="button"
     class="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
     on:click={closeLightbox}
-    on:keydown={e => e.key === 'Escape' && closeLightbox()}
   >
     <div class="relative w-full h-full flex items-center justify-center">
       <button 
@@ -87,6 +118,27 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
+
+      <button
+        type="button"
+        class="absolute left-4 text-white hover:text-gray-300 p-2"
+        on:click|stopPropagation={() => navigateImage('prev')}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+
+      <button
+        type="button"
+        class="absolute right-4 text-white hover:text-gray-300 p-2"
+        on:click|stopPropagation={() => navigateImage('next')}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+
       <img
         src={selectedImage}
         alt="Selected item"
