@@ -29,7 +29,7 @@
         <div class="max-w-6xl mx-auto">
           <div class="relative h-[80vh] min-h-[600px] w-full rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/images/hero.jpg"
+              src="https://xfcpn2nyfb.ufs.sh/f/LKapUqCN3UFsprImupZrIA5bjUedfSC906PxVE4OY2tgy31o"
               alt="Abingdon Antiques and More Store Front"
               class="absolute inset-0 w-full h-full object-cover md:object-center object-[75%_center]"
               loading="eager"
@@ -131,7 +131,7 @@
               <p class="text-gray-600 dark:text-gray-300 mb-8">
                 Visit us today and discover why we're becoming the region's premier destination for antiques and collectibles.
               </p>
-              <a href="/information" class="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-md transition-colors duration-200">
+              <a href="/information" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md transition-colors duration-200">
                 Visit Our Store
               </a>
             </div>

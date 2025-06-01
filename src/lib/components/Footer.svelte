@@ -16,7 +16,7 @@
         </div>
         <div class="mb-2">
           <p class="mb-1"><span class="font-medium">Email:</span></p>
-          <p><a href="mailto:abingdonantiquesandmore@gmail.com" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">abingdonantiquesandmore@gmail.com</a></p>
+          <p><a href="mailto:abingdonantiquesandmore@gmail.com" class="location-email text-blue-600 hover:text-blue-800 hover:underline transition-colors">abingdonantiquesandmore@gmail.com</a></p>
         </div>
         <div class="mb-4">
           <p class="mb-1"><span class="font-medium">Address:</span></p>
@@ -137,3 +137,19 @@
     </div>
   </div>
 </footer> 
+
+<style>
+  /* Mobile-first: Default styles for screens up to 460px wide (inclusive) */
+  .location-email {
+    font-size: 0.75rem; /* The smaller size */
+    line-height: 1rem;
+  }
+  
+  /* For screens wider than 460px */
+  @media screen and (min-width: 390px) {
+    .location-email {
+      font-size: 1rem; /* Adjust to your desired larger size */
+      line-height: 1.5rem; /* Adjust to your desired larger line height */
+    }
+  }
+  </style>

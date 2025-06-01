@@ -71,11 +71,11 @@
               <h3 class="font-medium text-gray-900 dark:text-white">Email:</h3>
               <div class="text-gray-600 dark:text-gray-300 overflow-x-auto">
                 <a 
-                  href="mailto:abingdonantiquesandmore@gmail.com" 
-                  class="text-blue-600 hover:text-blue-800 hover:underline transition-colors whitespace-nowrap inline-block text-lg"
-                >
-                  abingdonantiquesandmore@gmail.com
-                </a>
+                href="mailto:abingdonantiquesandmore@gmail.com" 
+                class="location-email text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+              >
+                abingdonantiquesandmore@gmail.com
+              </a>
               </div>
             </div>
             <div class="mt-6">
@@ -142,3 +142,19 @@
 
   <Footer />
 </Layout> 
+
+<style>
+/* Mobile-first: Default styles for screens up to 460px wide (inclusive) */
+.location-email {
+  font-size: 0.75rem; /* The smaller size */
+  line-height: 1rem;
+}
+
+/* For screens wider than 420px */
+@media screen and (min-width: 420px) {
+  .location-email {
+    font-size: 1rem; /* Adjust to your desired larger size */
+    line-height: 1.5rem; /* Adjust to your desired larger line height */
+  }
+}
+</style>
