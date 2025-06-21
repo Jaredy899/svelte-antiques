@@ -22,7 +22,7 @@
           <p class="mb-1"><span class="font-medium">Address:</span></p>
           <div class="space-y-2 text-black dark:text-gray-300">
             <div>
-              <AddressLink address="227 West Main Street, Abingdon, VA 24210">
+              <AddressLink>
                 227 West Main Street, Abingdon, VA 24210
               </AddressLink>
             </div>

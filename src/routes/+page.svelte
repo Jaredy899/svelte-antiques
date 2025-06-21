@@ -41,7 +41,7 @@
     </section>
 
     <!-- Social Media Section -->
-    <section class="py-16 bg-white dark:bg-gray-900 transition-colors duration-200">
+    <section class="py-8 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
           <div class="border-2 border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-lg bg-white dark:bg-gray-800">
@@ -81,7 +81,7 @@
     </section>
 
     <!-- New Location Announcement -->
-    <section class="py-16 bg-white dark:bg-gray-900 transition-colors duration-200">
+    <section class="py-8 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
           <div class="border-2 border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-lg bg-white dark:bg-gray-800">
@@ -92,8 +92,8 @@
                 </h2>
                 <p class="mb-6 text-lg text-gray-600 dark:text-gray-300">
                   <span class="font-semibold">We are now exclusively located at:</span><br />
-                  <AddressLink address="227 West Main Street, Abingdon, VA 24210">
-                    227 West Main Street, Abingdon, VA 24210
+                  <AddressLink>
+                    227 W Main St, Abingdon, VA 24210
                   </AddressLink>
                 </p>
                 <p class="text-gray-600 dark:text-gray-300">
@@ -116,7 +116,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="py-16 bg-white dark:bg-gray-900 transition-colors duration-200">
+    <section class="py-8 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
           <div class="border-2 border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-lg bg-white dark:bg-gray-800">
@@ -141,7 +141,7 @@
     </section>
 
     <!-- Featured Items -->
-    <section class="py-16 bg-white dark:bg-gray-900 transition-colors duration-200">
+    <section class="py-8 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div class="container mx-auto px-4">
         <ImageGallery 
           images={galleryImages}

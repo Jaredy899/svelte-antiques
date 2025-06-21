@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let address: string;
+  const address = "227 W Main St, Abingdon, VA 24210";
   
   function getGoogleMapsUrl(address: string) {
     return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
